@@ -118,9 +118,3 @@ cv2.waitKey(0)
 
 - [本节源码](https://github.com/ex2tron/OpenCV-Python-Tutorial/tree/master/07.%20%E5%9B%BE%E5%83%8F%E5%87%A0%E4%BD%95%E5%8F%98%E6%8D%A2)
 - [Geometric Transformations of Images](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html)
-
-
-
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
