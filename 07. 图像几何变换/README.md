@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # [OpenCV-Python教程07：图像几何变换](http://ex2tron.wang/opencv-python-image-geometric-transformation/)
 
 ![](http://pic.ex2tron.top/cv2_perspective_transformations_inm.jpg)
@@ -50,7 +52,7 @@ dst = cv2.flip(img, 1)
 ### 平移图片
 
 要平移图片，我们需要定义下面这样一个矩阵，tx,ty是向x和y方向平移的距离：
-<img src="//*[@id="articleInner"]/div[3]/p[8]/div">
+$$ M = \left[ \begin{matrix} 1 & 0 & t_x \newline 0 & 1 & t_y \end{matrix} \right] $$
 
 平移是用仿射变换函数`cv2.warpAffine()`实现的：
 
