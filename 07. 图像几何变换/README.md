@@ -1,7 +1,6 @@
-<html>
- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-</html>
-
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 # [OpenCV-Python教程07：图像几何变换](http://ex2tron.wang/opencv-python-image-geometric-transformation/)
 
 ![](http://pic.ex2tron.top/cv2_perspective_transformations_inm.jpg)
