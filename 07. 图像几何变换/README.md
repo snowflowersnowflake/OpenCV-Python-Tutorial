@@ -52,7 +52,15 @@ dst = cv2.flip(img, 1)
 ### 平移图片
 
 要平移图片，我们需要定义下面这样一个矩阵，tx,ty是向x和y方向平移的距离：
-$$ M = \left[ \begin{matrix} 1 & 0 & t_x \newline 0 & 1 & t_y \end{matrix} \right] $$
+
+$$
+M = \left[	
+ \begin{matrix}	
+   1 & 0 & t_x \newline	
+   0 & 1 & t_y 	
+  \end{matrix}	
+  \right] 	
+$$
 
 平移是用仿射变换函数`cv2.warpAffine()`实现的：
 
